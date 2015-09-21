@@ -1,0 +1,1 @@
+python cv.py arousal 0.01 "./arff/Emotion.ComParE.all.train.arff"

@@ -1,0 +1,52 @@
+Likability:
+
+Baseline
+Complexity		0.0001	0.001	0.01	0.1	1
+train vs devel		0.54	0.54	0.58	0.57	0.57
+train vs test		0.57	0.56	0.58	0.54	0.54
+traindev vs test	0.58	0.57	0.62	0.59	0.59
+(devel vs test		0.59	0.59	0.58	0.59	0.59)
+
+DE (Data Enrichment)
+Complexity		0.0001	0.001	0.01	0.1	1
+train vs test		0.51	0.58	0.56	0.58	0.60*
+
+
+Arousal:
+
+Baseline
+Complexity		0.00001	0.0001	0.001	0.01	0.1	
+train vs devel		77.3	78.1	80.9	82.9	80.4	
+train vs test		74.2	74.8	74.7	73.0	70.6	
+traindev vs test	74.6	76.0	73.2	72.4	68.9	
+(devel vs test		74.1	74.1	72.2	72.3	71.3)	
+
+DE (Data Enrichment)
+Complexity		0.00001	0.0001	0.001	0.01	0.1
+train vs test		75.0	75.0	74.3	73.1	69.0
+
+
+Valence:
+
+Baseline
+Complexity		0.0001	0.001	0.01	0.1
+train vs devel		66.3	69.7	77.9	76.9
+train vs test		59.0	60.2	59.8	60.3
+traindev vs test	59.9	60.9	63.7	61.4
+
+DE (Data Enrichment)
+Complexity		0.0001	0.001	0.01	0.1
+train vs test		53.0	59.5	61.8	59.3
+
+
+Personality: openness
+
+Baseline
+Complexity		0.0001	0.001	0.01	0.1	1
+train vs devel		.	.	.	.	.
+train vs test		.	.	.	.	.
+traindev vs test	.	.	.	.	.
+
+DE (Data Enrichment)
+Complexity		0.0001	0.001	0.01	0.1	1
+train vs test		.	.	.	.	.

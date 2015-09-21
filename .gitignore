@@ -1,0 +1,12 @@
+*.arff
+*.pyc
+*.log
+*~
+result_all/
+tmp*.txt
+tmp*.txt
+work/
+.cv/
+.cl/
+.batch/
+
