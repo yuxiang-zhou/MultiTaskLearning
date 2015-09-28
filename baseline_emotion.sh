@@ -51,7 +51,7 @@ test -f $svm_model_name || java -Xmx$jvm_mem -classpath $weka_jar weka.classifie
 
 # evaluate SVM and write predictions 
 # and using FilteredClassifier wrapper to ignore unused class labels
-pred_file=$eval_dir/$task.SMO.C$C.pred
+pred_file=$eval_dir/$task.`basename $train_arff`.SMO.C$C.pred
 test -f $pred_file || (java -Xmx$jvm_mem -classpath $weka_jar weka.classifiers.meta.FilteredClassifier -o -c $lab -l "$svm_model_name" -T $test_arff  -p 0 -distribution > $pred_file)
 
 # produce ARFF file in submission format

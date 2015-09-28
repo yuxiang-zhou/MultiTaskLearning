@@ -31,7 +31,7 @@ C=$2
 
 # directory where results will be stored
 res_dir=$5
-test -z "$res_dir" && res_dir=result_all
+test -z "$res_dir" && res_dir=results_all
 [ -d $res_dir ] || mkdir -p $res_dir
 
 # target variable (task)

@@ -3,7 +3,7 @@
 *.log
 *~
 result_all/
-tmp*.txt
+results_all/
 tmp*.txt
 work/
 .cv/
